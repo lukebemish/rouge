@@ -1,0 +1,20 @@
+// Brainmaps to use are declared before anything else. Any number can be declared; they will
+// be appended together at compile time.
+"brainmap.map"
+// This syntax opens a class definition - in this case, the class at index 0
+;{
+    // And this opens up a method definition
+    ;{
+        // Your code implementing "apply" would go here
+    }
+    // Methods and constructors are declared the same way
+    ;{
+        ; plain text can go here too!
+    }
+}
+// A "-" tells the compiler to skip this class or method - in this case, we don't want to redefine Object!
+-
+;{
+    // A ";" on its own for a method definition defines, but skips, an abstract method.
+    ;
+}

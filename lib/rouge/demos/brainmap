@@ -1,0 +1,16 @@
+// It's a comment
+public class brainfrick.test.TestFunction implements java.util.function.Function
+  /* Multiline comments
+     should work.
+  */
+  public java.lang.Object apply(java.lang.Object)
+  public new() -> java.lang.Object new()
+class java.lang.Object
+@some.annotation.Here(value1="Test",value2=1s)
+@?some.annotation.Here2(value1=1.0f,value2={1,2,3})
+abstract public class brainfrick.test.TestField
+  get java.lang.Object storedObject
+  static get java.lang.String staticString
+  put java.lang.Object storedObject
+  abstract java.lang.Object someMethod(java.lang.String,int)
+  final void anotherMethod(float,char)
