@@ -11,6 +11,9 @@
     ;{
         ; plain text can go here too!
     }
+    {
+        // Static blocks can be defined
+    }
 }
 // A "-" tells the compiler to skip this class or method - in this case, we don't want to redefine Object!
 -

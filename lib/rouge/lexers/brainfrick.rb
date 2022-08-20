@@ -24,6 +24,7 @@ module Rouge
           rule %r(//.*?$), Comment::Single
           rule %r(/\*.*?\*/)m, Comment::Multiline
           rule %r/;{/, Punctuation, :methodloop
+          rule %r/{/, Punctuation, :methodloop
           rule %r/[;\-]/, Punctuation
           rule %r/}/, Punctuation, :pop!
           rule %r/\[/, Punctuation, :loop
